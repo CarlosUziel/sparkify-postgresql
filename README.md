@@ -21,8 +21,9 @@
   </ol>
 </details>
 
-# Sparkify
+**WORK IN PROGRESS**
 
+# Sparkify (WIP)
 A project from the Data Engineering Nanodegree Program to practice data modeling in relational databases using PostgreSQL.
 
 ## About The Project
