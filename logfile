@@ -1,0 +1,795 @@
+2022-10-21 11:23:43.410 CEST [13648] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 11:23:43.410 CEST [13648] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 11:23:43.416 CEST [13648] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 11:23:43.423 CEST [13649] LOG:  database system was shut down at 2022-10-21 11:23:33 CEST
+2022-10-21 11:23:43.428 CEST [13648] LOG:  database system is ready to accept connections
+2022-10-21 11:26:14.472 CEST [14059] FATAL:  database "student" does not exist
+2022-10-21 11:26:23.964 CEST [14178] FATAL:  database "https://gist.github.com/gwangjinkim/f13bf596fefa7db7d31c22efd16" does not exist
+2022-10-21 11:29:30.740 CEST [15371] ERROR:  relation "songplays" does not exist at character 15
+2022-10-21 11:29:30.740 CEST [15371] STATEMENT:  SELECT * FROM songplays LIMIT 5;
+2022-10-21 11:36:15.332 CEST [16022] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 11:36:15.333 CEST [16022] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-10-21 11:36:15.333 CEST [16022] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-21 11:36:15.333 CEST [16022] WARNING:  could not create listen socket for "localhost"
+2022-10-21 11:36:15.333 CEST [16022] FATAL:  could not create any TCP/IP sockets
+2022-10-21 11:36:15.335 CEST [16022] LOG:  database system is shut down
+2022-10-21 11:37:26.022 CEST [13648] LOG:  received smart shutdown request
+2022-10-21 11:38:52.521 CEST [15371] FATAL:  terminating connection due to administrator command
+2022-10-21 11:38:52.522 CEST [13648] LOG:  background worker "logical replication launcher" (PID 13655) exited with exit code 1
+2022-10-21 11:38:52.534 CEST [13650] LOG:  shutting down
+2022-10-21 11:38:52.550 CEST [13648] LOG:  database system is shut down
+2022-10-21 11:39:02.036 CEST [16871] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 11:39:02.036 CEST [16871] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 11:39:02.043 CEST [16871] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 11:39:02.051 CEST [16872] LOG:  database system was shut down at 2022-10-21 11:36:06 CEST
+2022-10-21 11:39:02.056 CEST [16871] LOG:  database system is ready to accept connections
+2022-10-21 13:53:14.828 CEST [29191] FATAL:  database "sparkifydb" does not exist
+2022-10-21 13:53:32.794 CEST [16871] LOG:  received smart shutdown request
+2022-10-21 13:53:32.797 CEST [16871] LOG:  background worker "logical replication launcher" (PID 16878) exited with exit code 1
+2022-10-21 13:53:32.797 CEST [16873] LOG:  shutting down
+2022-10-21 13:53:32.822 CEST [16871] LOG:  database system is shut down
+2022-10-21 14:03:45.182 CEST [31517] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 14:03:45.182 CEST [31517] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 14:03:45.188 CEST [31517] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 14:03:45.195 CEST [31518] LOG:  database system was shut down at 2022-10-21 13:53:32 CEST
+2022-10-21 14:03:45.201 CEST [31517] LOG:  database system is ready to accept connections
+2022-10-21 14:03:50.496 CEST [31572] FATAL:  database "studentdb" does not exist
+2022-10-21 14:04:08.511 CEST [31768] FATAL:  database "sparkifydb" does not exist
+2022-10-21 14:04:45.271 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:45.928 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:45.928 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:46.585 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:46.585 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:47.242 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:47.242 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:47.388 CEST [32003] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 14:04:47.388 CEST [32003] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2022-10-21 14:04:47.388 CEST [32003] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2022-10-21 14:04:47.388 CEST [32003] WARNING:  could not create listen socket for "localhost"
+2022-10-21 14:04:47.388 CEST [32003] FATAL:  could not create any TCP/IP sockets
+2022-10-21 14:04:47.390 CEST [32003] LOG:  database system is shut down
+2022-10-21 14:04:47.898 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:47.898 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:48.554 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:48.555 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:49.207 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:49.207 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:49.862 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:49.862 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:50.517 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:50.517 CEST [31523] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:04:51.153 CEST [31517] LOG:  received smart shutdown request
+2022-10-21 14:04:51.154 CEST [31517] LOG:  could not open file "postmaster.pid": No such file or directory
+2022-10-21 14:04:51.154 CEST [31517] LOG:  could not open file "postmaster.pid": No such file or directory
+2022-10-21 14:04:51.154 CEST [31517] LOG:  performing immediate shutdown because data directory lock file is invalid
+2022-10-21 14:04:51.154 CEST [31517] LOG:  received immediate shutdown request
+2022-10-21 14:04:51.154 CEST [31517] LOG:  could not open file "postmaster.pid": No such file or directory
+2022-10-21 14:04:51.154 CEST [31523] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2022-10-21 14:04:51.157 CEST [31517] LOG:  database system is shut down
+2022-10-21 14:04:53.029 CEST [32068] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 14:04:53.029 CEST [32068] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 14:04:53.035 CEST [32068] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 14:04:53.042 CEST [32069] LOG:  database system was shut down at 2022-10-21 14:04:39 CEST
+2022-10-21 14:04:53.047 CEST [32068] LOG:  database system is ready to accept connections
+2022-10-21 14:05:19.685 CEST [32280] FATAL:  database "studentdb" does not exist
+2022-10-21 14:08:04.089 CEST [32638] FATAL:  database "uziel" does not exist
+2022-10-21 14:08:10.110 CEST [32690] FATAL:  database "sparkifydb" does not exist
+2022-10-21 14:08:19.002 CEST [32740] FATAL:  database "studentdb" does not exist
+2022-10-21 14:08:53.269 CEST [32074] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:08:53.926 CEST [32074] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:08:53.926 CEST [32074] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:08:54.585 CEST [32074] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:08:54.585 CEST [32074] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:08:55.243 CEST [32074] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:08:55.243 CEST [32074] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:08:55.901 CEST [32074] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:08:55.901 CEST [32074] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 14:08:56.472 CEST [32068] LOG:  received smart shutdown request
+2022-10-21 14:08:56.472 CEST [32068] LOG:  could not open file "postmaster.pid": No such file or directory
+2022-10-21 14:08:56.472 CEST [32068] LOG:  could not open file "postmaster.pid": No such file or directory
+2022-10-21 14:08:56.472 CEST [32068] LOG:  performing immediate shutdown because data directory lock file is invalid
+2022-10-21 14:08:56.472 CEST [32068] LOG:  received immediate shutdown request
+2022-10-21 14:08:56.472 CEST [32068] LOG:  could not open file "postmaster.pid": No such file or directory
+2022-10-21 14:08:56.472 CEST [32074] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2022-10-21 14:08:56.478 CEST [32068] LOG:  database system is shut down
+2022-10-21 14:09:23.242 CEST [33168] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 14:09:23.242 CEST [33168] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 14:09:23.248 CEST [33168] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 14:09:23.257 CEST [33169] LOG:  database system was shut down at 2022-10-21 14:09:12 CEST
+2022-10-21 14:09:23.262 CEST [33168] LOG:  database system is ready to accept connections
+2022-10-21 14:09:26.975 CEST [33214] FATAL:  database "studentdb" does not exist
+2022-10-21 14:10:46.426 CEST [33522] ERROR:  role "student" does not exist
+2022-10-21 14:10:46.426 CEST [33522] STATEMENT:  CREATE DATABASE studentdb OWNER student;
+2022-10-21 14:10:59.159 CEST [33624] ERROR:  database "uziel" already exists
+2022-10-21 14:10:59.159 CEST [33624] STATEMENT:  CREATE DATABASE uziel;
+2022-10-21 14:12:15.467 CEST [33168] LOG:  received smart shutdown request
+2022-10-21 14:12:15.477 CEST [33168] LOG:  background worker "logical replication launcher" (PID 33175) exited with exit code 1
+2022-10-21 14:12:15.477 CEST [33170] LOG:  shutting down
+2022-10-21 14:12:15.504 CEST [33168] LOG:  database system is shut down
+2022-10-21 14:12:24.413 CEST [34091] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 14:12:24.413 CEST [34091] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 14:12:24.419 CEST [34091] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 14:12:24.426 CEST [34092] LOG:  database system was shut down at 2022-10-21 14:12:12 CEST
+2022-10-21 14:12:24.432 CEST [34091] LOG:  database system is ready to accept connections
+2022-10-21 14:16:35.727 CEST [34660] FATAL:  database "studentdb" does not exist
+2022-10-21 14:17:15.046 CEST [34770] ERROR:  permission denied to create database
+2022-10-21 14:17:15.046 CEST [34770] STATEMENT:  CREATE DATABASE sparkifydb WITH ENCODING 'utf8' TEMPLATE template0
+2022-10-21 14:19:56.387 CEST [35284] ERROR:  role "student" already exists
+2022-10-21 14:19:56.387 CEST [35284] STATEMENT:  CREATE ROLE student PASSWORD 'SCRAM-SHA-256$4096:eYMJbaLCunZDnBm23suPeg==$aIoa21Cv8zm4M+6PGctdsXEi8jVjmjuhPPFaULpe0hI=:TGZdT5XmkG8KMKFNPoPJXR9mcs01PQ027gzpjM/TuqA=' SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN;
+2022-10-21 14:20:07.727 CEST [35366] ERROR:  role "student" cannot be dropped because some objects depend on it
+2022-10-21 14:20:07.727 CEST [35366] DETAIL:  owner of database studentdb
+2022-10-21 14:20:07.727 CEST [35366] STATEMENT:  DROP ROLE student;
+2022-10-21 14:20:23.203 CEST [35421] ERROR:  database "studentdb" is being accessed by other users
+2022-10-21 14:20:23.203 CEST [35421] DETAIL:  There is 1 other session using the database.
+2022-10-21 14:20:23.203 CEST [35421] STATEMENT:  DROP DATABASE studentdb;
+2022-10-21 14:20:41.500 CEST [34091] LOG:  received smart shutdown request
+2022-10-21 14:20:41.500 CEST [34770] FATAL:  terminating connection due to administrator command
+2022-10-21 14:20:41.504 CEST [34091] LOG:  background worker "logical replication launcher" (PID 34098) exited with exit code 1
+2022-10-21 14:20:41.504 CEST [34093] LOG:  shutting down
+2022-10-21 14:20:41.534 CEST [34091] LOG:  database system is shut down
+2022-10-21 14:20:52.996 CEST [35648] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 14:20:52.996 CEST [35648] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 14:20:53.002 CEST [35648] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 14:20:53.009 CEST [35649] LOG:  database system was shut down at 2022-10-21 14:20:41 CEST
+2022-10-21 14:20:53.017 CEST [35648] LOG:  database system is ready to accept connections
+2022-10-21 14:21:29.844 CEST [35961] ERROR:  syntax error at or near ";" at character 65
+2022-10-21 14:21:29.844 CEST [35961] STATEMENT:  CREATE TABLE IF NOT EXISTS songplays (s, o, n, g, p, l, a, y, s);
+2022-10-21 14:24:03.687 CEST [36394] ERROR:  database "sparkifydb" is being accessed by other users
+2022-10-21 14:24:03.687 CEST [36394] DETAIL:  There is 1 other session using the database.
+2022-10-21 14:24:03.687 CEST [36394] STATEMENT:  DROP DATABASE IF EXISTS sparkifydb
+2022-10-21 14:24:18.293 CEST [35648] LOG:  received smart shutdown request
+2022-10-21 14:24:18.293 CEST [36394] FATAL:  terminating connection due to administrator command
+2022-10-21 14:24:18.298 CEST [35648] LOG:  background worker "logical replication launcher" (PID 35655) exited with exit code 1
+2022-10-21 14:24:18.298 CEST [35650] LOG:  shutting down
+2022-10-21 14:24:18.323 CEST [35648] LOG:  database system is shut down
+2022-10-21 14:24:28.715 CEST [36529] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 14:24:28.715 CEST [36529] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 14:24:28.721 CEST [36529] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 14:24:28.729 CEST [36530] LOG:  database system was shut down at 2022-10-21 14:24:18 CEST
+2022-10-21 14:24:28.734 CEST [36529] LOG:  database system is ready to accept connections
+2022-10-21 14:31:26.002 CEST [38090] ERROR:  syntax error at or near ";" at character 133
+2022-10-21 14:31:26.002 CEST [38090] STATEMENT:  CREATE TABLE IF NOT EXISTS songplays (songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent);
+2022-10-21 14:32:39.525 CEST [38219] ERROR:  syntax error at or near ";" at character 133
+2022-10-21 14:32:39.525 CEST [38219] STATEMENT:  CREATE TABLE IF NOT EXISTS songplays (songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent);
+2022-10-21 14:43:52.262 CEST [39629] ERROR:  database "sparkifydb" is being accessed by other users
+2022-10-21 14:43:52.262 CEST [39629] DETAIL:  There is 1 other session using the database.
+2022-10-21 14:43:52.262 CEST [39629] STATEMENT:  DROP DATABASE IF EXISTS sparkifydb
+2022-10-21 14:44:11.897 CEST [36529] LOG:  received smart shutdown request
+2022-10-21 14:44:11.897 CEST [38220] FATAL:  terminating connection due to administrator command
+2022-10-21 14:44:11.897 CEST [39629] FATAL:  terminating connection due to administrator command
+2022-10-21 14:44:11.907 CEST [36529] LOG:  background worker "logical replication launcher" (PID 36536) exited with exit code 1
+2022-10-21 14:44:11.907 CEST [36531] LOG:  shutting down
+2022-10-21 14:44:11.928 CEST [36529] LOG:  database system is shut down
+2022-10-21 14:44:14.034 CEST [39690] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 14:44:14.034 CEST [39690] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 14:44:14.040 CEST [39690] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 14:44:14.047 CEST [39691] LOG:  database system was shut down at 2022-10-21 14:44:11 CEST
+2022-10-21 14:44:14.053 CEST [39690] LOG:  database system is ready to accept connections
+2022-10-21 14:44:18.945 CEST [39759] ERROR:  syntax error at or near ";" at character 133
+2022-10-21 14:44:18.945 CEST [39759] STATEMENT:  CREATE TABLE IF NOT EXISTS songplays (songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent);
+2022-10-21 14:45:02.195 CEST [39690] LOG:  received smart shutdown request
+2022-10-21 14:45:02.195 CEST [39768] FATAL:  terminating connection due to administrator command
+2022-10-21 14:45:02.199 CEST [39690] LOG:  background worker "logical replication launcher" (PID 39697) exited with exit code 1
+2022-10-21 14:45:02.199 CEST [39692] LOG:  shutting down
+2022-10-21 14:45:02.224 CEST [39690] LOG:  database system is shut down
+2022-10-21 14:45:03.124 CEST [39842] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 14:45:03.124 CEST [39842] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 14:45:03.129 CEST [39842] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 14:45:03.136 CEST [39843] LOG:  database system was shut down at 2022-10-21 14:45:02 CEST
+2022-10-21 14:45:03.141 CEST [39842] LOG:  database system is ready to accept connections
+2022-10-21 14:46:50.005 CEST [40144] ERROR:  syntax error at or near ";" at character 133
+2022-10-21 14:46:50.005 CEST [40144] STATEMENT:  CREATE TABLE IF NOT EXISTS songplays (songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent);
+2022-10-21 14:47:59.454 CEST [41693] ERROR:  syntax error at or near "," at character 79
+2022-10-21 14:47:59.454 CEST [41693] STATEMENT:  CREATE TABLE IF NOT EXISTS songplays (songplay_id int PRIMARY KEY, start_time , user_id int, level int, song_id int, artist_id int, session_id int, location text, user_agent text);
+2022-10-21 14:48:21.008 CEST [41757] ERROR:  syntax error at or near "," at character 79
+2022-10-21 14:48:21.008 CEST [41757] STATEMENT:  CREATE TABLE IF NOT EXISTS songplays (songplay_id int PRIMARY KEY, start_time , user_id int, level int, song_id int, artist_id int, session_id int, location text, user_agent text);
+2022-10-21 14:48:30.473 CEST [41796] ERROR:  syntax error at or near "," at character 79
+2022-10-21 14:48:30.473 CEST [41796] STATEMENT:  CREATE TABLE IF NOT EXISTS songplays (songplay_id int PRIMARY KEY, start_time , user_id int, level int, song_id int, artist_id int, session_id int, location text, user_agent text);
+2022-10-21 15:13:56.176 CEST [43373] ERROR:  syntax error at or near "[" at character 20
+2022-10-21 15:13:56.176 CEST [43373] STATEMENT:  INSERT INTO songs (['song_id', 'title', 'artist_id', 'year', 'duration']) VALUES (SONWXQJ12A8C134D94, The Ballad Of Sleeping Beauty, ARNF6401187FB57032, 1994, 305.162)
+2022-10-21 15:18:31.269 CEST [43373] ERROR:  syntax error at or near "Ballad" at character 95
+2022-10-21 15:18:31.269 CEST [43373] STATEMENT:  INSERT INTO songs (song_id, title, artist_id, year, duration) VALUES (SONWXQJ12A8C134D94, The Ballad Of Sleeping Beauty, ARNF6401187FB57032, 1994, 305.162)
+2022-10-21 15:22:21.478 CEST [46805] ERROR:  database "sparkifydb" is being accessed by other users
+2022-10-21 15:22:21.478 CEST [46805] DETAIL:  There is 1 other session using the database.
+2022-10-21 15:22:21.478 CEST [46805] STATEMENT:  DROP DATABASE IF EXISTS sparkifydb
+2022-10-21 15:22:35.324 CEST [39842] LOG:  received smart shutdown request
+2022-10-21 15:22:35.325 CEST [46805] FATAL:  terminating connection due to administrator command
+2022-10-21 15:22:35.326 CEST [43373] FATAL:  terminating connection due to administrator command
+2022-10-21 15:22:35.335 CEST [39842] LOG:  background worker "logical replication launcher" (PID 39849) exited with exit code 1
+2022-10-21 15:22:35.335 CEST [39844] LOG:  shutting down
+2022-10-21 15:22:35.353 CEST [39842] LOG:  database system is shut down
+2022-10-21 15:22:37.380 CEST [46881] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 15:22:37.380 CEST [46881] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 15:22:37.386 CEST [46881] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 15:22:37.393 CEST [46882] LOG:  database system was shut down at 2022-10-21 15:22:35 CEST
+2022-10-21 15:22:37.399 CEST [46881] LOG:  database system is ready to accept connections
+2022-10-21 15:22:46.677 CEST [46943] ERROR:  invalid input syntax for type integer: "SONWXQJ12A8C134D94" at character 71
+2022-10-21 15:22:46.677 CEST [46943] STATEMENT:  INSERT INTO songs (song_id, title, artist_id, year, duration) VALUES ('SONWXQJ12A8C134D94', 'The Ballad Of Sleeping Beauty', 'ARNF6401187FB57032', 1994, 305.162)
+2022-10-21 15:23:34.955 CEST [46881] LOG:  received smart shutdown request
+2022-10-21 15:23:34.955 CEST [46943] FATAL:  terminating connection due to administrator command
+2022-10-21 15:23:34.965 CEST [46881] LOG:  background worker "logical replication launcher" (PID 46888) exited with exit code 1
+2022-10-21 15:23:34.965 CEST [46883] LOG:  shutting down
+2022-10-21 15:23:34.997 CEST [46881] LOG:  database system is shut down
+2022-10-21 15:23:35.832 CEST [47038] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 15:23:35.833 CEST [47038] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 15:23:35.840 CEST [47038] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 15:23:35.847 CEST [47039] LOG:  database system was shut down at 2022-10-21 15:23:34 CEST
+2022-10-21 15:23:35.853 CEST [47038] LOG:  database system is ready to accept connections
+2022-10-21 15:23:39.105 CEST [47082] ERROR:  invalid input syntax for type integer: "SONWXQJ12A8C134D94" at character 71
+2022-10-21 15:23:39.105 CEST [47082] STATEMENT:  INSERT INTO songs (song_id, title, artist_id, year, duration) VALUES ('SONWXQJ12A8C134D94', 'The Ballad Of Sleeping Beauty', 'ARNF6401187FB57032', 1994, 305.162)
+2022-10-21 15:23:54.318 CEST [47038] LOG:  received smart shutdown request
+2022-10-21 15:23:54.325 CEST [47219] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 15:23:54.325 CEST [47219] HINT:  Is another postmaster (PID 47038) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 15:23:54.328 CEST [47038] LOG:  background worker "logical replication launcher" (PID 47045) exited with exit code 1
+2022-10-21 15:23:54.328 CEST [47040] LOG:  shutting down
+2022-10-21 15:23:54.361 CEST [47038] LOG:  database system is shut down
+2022-10-21 15:24:19.351 CEST [47404] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 15:24:19.351 CEST [47404] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 15:24:19.357 CEST [47404] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 15:24:19.364 CEST [47405] LOG:  database system was shut down at 2022-10-21 15:23:54 CEST
+2022-10-21 15:24:19.369 CEST [47404] LOG:  database system is ready to accept connections
+2022-10-21 15:24:28.727 CEST [47466] ERROR:  invalid input syntax for type integer: "ARNF6401187FB57032" at character 126
+2022-10-21 15:24:28.727 CEST [47466] STATEMENT:  INSERT INTO songs (song_id, title, artist_id, year, duration) VALUES ('SONWXQJ12A8C134D94', 'The Ballad Of Sleeping Beauty', 'ARNF6401187FB57032', 1994, 305.162)
+2022-10-21 15:24:53.688 CEST [47404] LOG:  received smart shutdown request
+2022-10-21 15:24:53.688 CEST [47466] FATAL:  terminating connection due to administrator command
+2022-10-21 15:24:53.698 CEST [47404] LOG:  background worker "logical replication launcher" (PID 47411) exited with exit code 1
+2022-10-21 15:24:53.698 CEST [47406] LOG:  shutting down
+2022-10-21 15:24:53.704 CEST [47533] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 15:24:53.704 CEST [47533] HINT:  Is another postmaster (PID 47404) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 15:24:53.729 CEST [47404] LOG:  database system is shut down
+2022-10-21 15:25:23.439 CEST [47659] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 15:25:23.439 CEST [47659] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 15:25:23.446 CEST [47659] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 15:25:23.453 CEST [47660] LOG:  database system was shut down at 2022-10-21 15:24:53 CEST
+2022-10-21 15:25:23.459 CEST [47659] LOG:  database system is ready to accept connections
+2022-10-21 15:25:32.854 CEST [47728] ERROR:  invalid input syntax for type integer: "ARNF6401187FB57032" at character 126
+2022-10-21 15:25:32.854 CEST [47728] STATEMENT:  INSERT INTO songs (song_id, title, artist_id, year, duration) VALUES ('SONWXQJ12A8C134D94', 'The Ballad Of Sleeping Beauty', 'ARNF6401187FB57032', 1994, 305.162)
+2022-10-21 15:25:54.294 CEST [47659] LOG:  received smart shutdown request
+2022-10-21 15:25:54.294 CEST [47728] FATAL:  terminating connection due to administrator command
+2022-10-21 15:25:54.304 CEST [47659] LOG:  background worker "logical replication launcher" (PID 47666) exited with exit code 1
+2022-10-21 15:25:54.304 CEST [47661] LOG:  shutting down
+2022-10-21 15:25:54.310 CEST [47800] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 15:25:54.310 CEST [47800] HINT:  Is another postmaster (PID 47659) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 15:25:54.332 CEST [47659] LOG:  database system is shut down
+2022-10-21 15:25:55.514 CEST [47827] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 15:25:55.515 CEST [47827] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 15:25:55.521 CEST [47827] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 15:25:55.528 CEST [47828] LOG:  database system was shut down at 2022-10-21 15:25:54 CEST
+2022-10-21 15:25:55.534 CEST [47827] LOG:  database system is ready to accept connections
+2022-10-21 15:26:00.201 CEST [47864] ERROR:  invalid input syntax for type integer: "ARNF6401187FB57032" at character 126
+2022-10-21 15:26:00.201 CEST [47864] STATEMENT:  INSERT INTO songs (song_id, title, artist_id, year, duration) VALUES ('SONWXQJ12A8C134D94', 'The Ballad Of Sleeping Beauty', 'ARNF6401187FB57032', 1994, 305.162)
+2022-10-21 15:26:06.264 CEST [47827] LOG:  received smart shutdown request
+2022-10-21 15:26:06.275 CEST [47827] LOG:  background worker "logical replication launcher" (PID 47834) exited with exit code 1
+2022-10-21 15:26:06.275 CEST [47829] LOG:  shutting down
+2022-10-21 15:26:06.279 CEST [47927] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 15:26:06.279 CEST [47927] HINT:  Is another postmaster (PID 47827) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 15:26:06.303 CEST [47827] LOG:  database system is shut down
+2022-10-21 15:26:07.215 CEST [47945] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 15:26:07.215 CEST [47945] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 15:26:07.221 CEST [47945] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 15:26:07.229 CEST [47946] LOG:  database system was shut down at 2022-10-21 15:26:06 CEST
+2022-10-21 15:26:07.234 CEST [47945] LOG:  database system is ready to accept connections
+2022-10-21 15:33:13.949 CEST [48537] WARNING:  there is no transaction in progress
+2022-10-21 15:33:14.824 CEST [48537] WARNING:  there is no transaction in progress
+2022-10-21 15:36:22.921 CEST [48003] ERROR:  column "artist_name" of relation "artists" does not exist at character 33
+2022-10-21 15:36:22.921 CEST [48003] STATEMENT:  INSERT INTO artists (artist_id, artist_name, artist_location, artist_latitude, artist_longitude) VALUES ('ARNF6401187FB57032', 'Sophie B. Hawkins', 'New York, NY [Manhattan]', 40.79086,  -73.96644)
+2022-10-21 15:37:39.864 CEST [48003] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2022-10-21 15:37:39.864 CEST [48003] STATEMENT:  INSERT INTO artists (artist_id, name, location, latitude, longitude) VALUES ('ARNF6401187FB57032', 'Sophie B. Hawkins', 'New York, NY [Manhattan]', 40.79086,  -73.96644)
+2022-10-21 15:37:51.798 CEST [47945] LOG:  received smart shutdown request
+2022-10-21 15:37:51.798 CEST [48003] FATAL:  terminating connection due to administrator command
+2022-10-21 15:37:51.798 CEST [48537] FATAL:  terminating connection due to administrator command
+2022-10-21 15:37:51.802 CEST [47945] LOG:  background worker "logical replication launcher" (PID 47952) exited with exit code 1
+2022-10-21 15:37:51.803 CEST [47947] LOG:  shutting down
+2022-10-21 15:37:51.812 CEST [49105] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 15:37:51.812 CEST [49105] HINT:  Is another postmaster (PID 47945) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 15:37:51.829 CEST [47945] LOG:  database system is shut down
+2022-10-21 15:37:55.654 CEST [49168] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 15:37:55.655 CEST [49168] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 15:37:55.660 CEST [49168] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 15:37:55.668 CEST [49169] LOG:  database system was shut down at 2022-10-21 15:37:51 CEST
+2022-10-21 15:37:55.674 CEST [49168] LOG:  database system is ready to accept connections
+2022-10-21 15:38:13.559 CEST [49296] WARNING:  there is no transaction in progress
+2022-10-21 15:38:13.626 CEST [49296] WARNING:  there is no transaction in progress
+2022-10-21 15:38:13.692 CEST [49296] WARNING:  there is no transaction in progress
+2022-10-21 15:38:13.766 CEST [49296] WARNING:  there is no transaction in progress
+2022-10-21 16:48:39.516 CEST [49168] LOG:  received smart shutdown request
+2022-10-21 16:48:39.517 CEST [49296] FATAL:  terminating connection due to administrator command
+2022-10-21 16:48:39.520 CEST [49168] LOG:  background worker "logical replication launcher" (PID 49175) exited with exit code 1
+2022-10-21 16:48:39.520 CEST [49170] LOG:  shutting down
+2022-10-21 16:48:39.540 CEST [56184] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 16:48:39.540 CEST [56184] HINT:  Is another postmaster (PID 49168) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 16:48:39.544 CEST [49168] LOG:  database system is shut down
+2022-10-21 16:48:41.579 CEST [56219] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 16:48:41.580 CEST [56219] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 16:48:41.585 CEST [56219] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 16:48:41.594 CEST [56220] LOG:  database system was shut down at 2022-10-21 16:48:39 CEST
+2022-10-21 16:48:41.602 CEST [56219] LOG:  database system is ready to accept connections
+2022-10-21 16:48:56.745 CEST [56340] WARNING:  there is no transaction in progress
+2022-10-21 16:48:56.820 CEST [56340] WARNING:  there is no transaction in progress
+2022-10-21 16:48:56.891 CEST [56340] WARNING:  there is no transaction in progress
+2022-10-21 16:48:56.959 CEST [56340] WARNING:  there is no transaction in progress
+2022-10-21 16:54:07.586 CEST [56294] ERROR:  invalid input syntax for type integer: "free" at character 107
+2022-10-21 16:54:07.586 CEST [56294] STATEMENT:  INSERT INTO users (user_id, first_name, last_name, gender, level) VALUES ('66', 'Kevin', 'Arellano', 'M', 'free')
+2022-10-21 16:54:26.150 CEST [56219] LOG:  received smart shutdown request
+2022-10-21 16:54:26.151 CEST [56340] FATAL:  terminating connection due to administrator command
+2022-10-21 16:54:26.152 CEST [56294] FATAL:  terminating connection due to administrator command
+2022-10-21 16:54:26.154 CEST [56219] LOG:  background worker "logical replication launcher" (PID 56226) exited with exit code 1
+2022-10-21 16:54:26.154 CEST [56221] LOG:  shutting down
+2022-10-21 16:54:26.164 CEST [57495] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 16:54:26.164 CEST [57495] HINT:  Is another postmaster (PID 56219) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 16:54:26.173 CEST [56219] LOG:  database system is shut down
+2022-10-21 16:54:34.121 CEST [57571] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 16:54:34.121 CEST [57571] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 16:54:34.127 CEST [57571] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 16:54:34.135 CEST [57572] LOG:  database system was shut down at 2022-10-21 16:54:26 CEST
+2022-10-21 16:54:34.140 CEST [57571] LOG:  database system is ready to accept connections
+2022-10-21 16:54:40.477 CEST [57625] ERROR:  invalid input syntax for type integer: "free" at character 107
+2022-10-21 16:54:40.477 CEST [57625] STATEMENT:  INSERT INTO users (user_id, first_name, last_name, gender, level) VALUES ('66', 'Kevin', 'Arellano', 'M', 'free')
+2022-10-21 16:55:21.358 CEST [57571] LOG:  received smart shutdown request
+2022-10-21 16:55:21.359 CEST [57625] FATAL:  terminating connection due to administrator command
+2022-10-21 16:55:21.369 CEST [57571] LOG:  background worker "logical replication launcher" (PID 57578) exited with exit code 1
+2022-10-21 16:55:21.369 CEST [57573] LOG:  shutting down
+2022-10-21 16:55:21.373 CEST [57737] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 16:55:21.373 CEST [57737] HINT:  Is another postmaster (PID 57571) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 16:55:21.397 CEST [57571] LOG:  database system is shut down
+2022-10-21 16:55:22.067 CEST [57754] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 16:55:22.067 CEST [57754] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 16:55:22.073 CEST [57754] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 16:55:22.082 CEST [57755] LOG:  database system was shut down at 2022-10-21 16:55:21 CEST
+2022-10-21 16:55:22.087 CEST [57754] LOG:  database system is ready to accept connections
+2022-10-21 16:55:39.762 CEST [57838] ERROR:  invalid input syntax for type integer: "free" at character 107
+2022-10-21 16:55:39.762 CEST [57838] STATEMENT:  INSERT INTO users (user_id, first_name, last_name, gender, level) VALUES ('66', 'Kevin', 'Arellano', 'M', 'free')
+2022-10-21 16:56:12.257 CEST [57902] WARNING:  there is no transaction in progress
+2022-10-21 16:56:12.328 CEST [57902] WARNING:  there is no transaction in progress
+2022-10-21 16:56:12.400 CEST [57902] WARNING:  there is no transaction in progress
+2022-10-21 16:56:12.474 CEST [57902] WARNING:  there is no transaction in progress
+2022-10-21 16:58:44.083 CEST [57754] LOG:  received smart shutdown request
+2022-10-21 16:58:44.084 CEST [57902] FATAL:  terminating connection due to administrator command
+2022-10-21 16:58:44.093 CEST [57754] LOG:  background worker "logical replication launcher" (PID 57761) exited with exit code 1
+2022-10-21 16:58:44.093 CEST [57756] LOG:  shutting down
+2022-10-21 16:58:44.099 CEST [58463] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 16:58:44.099 CEST [58463] HINT:  Is another postmaster (PID 57754) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 16:58:44.121 CEST [57754] LOG:  database system is shut down
+2022-10-21 16:58:47.257 CEST [58536] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 16:58:47.258 CEST [58536] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 16:58:47.263 CEST [58536] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 16:58:47.271 CEST [58537] LOG:  database system was shut down at 2022-10-21 16:58:44 CEST
+2022-10-21 16:58:47.278 CEST [58536] LOG:  database system is ready to accept connections
+2022-10-21 16:58:53.494 CEST [58598] ERROR:  duplicate key value violates unique constraint "users_pkey"
+2022-10-21 16:58:53.494 CEST [58598] DETAIL:  Key (user_id)=(60) already exists.
+2022-10-21 16:58:53.494 CEST [58598] STATEMENT:  INSERT INTO users (user_id, first_name, last_name, gender, level) VALUES ('60', 'Devin', 'Larson', 'M', 'free')
+2022-10-21 17:00:07.319 CEST [58536] LOG:  received smart shutdown request
+2022-10-21 17:00:07.329 CEST [58536] LOG:  background worker "logical replication launcher" (PID 58543) exited with exit code 1
+2022-10-21 17:00:07.330 CEST [58538] LOG:  shutting down
+2022-10-21 17:00:07.334 CEST [58803] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 17:00:07.334 CEST [58803] HINT:  Is another postmaster (PID 58536) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 17:00:07.367 CEST [58536] LOG:  database system is shut down
+2022-10-21 17:00:08.824 CEST [58828] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 17:00:08.825 CEST [58828] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 17:00:08.837 CEST [58828] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 17:00:08.856 CEST [58829] LOG:  database system was shut down at 2022-10-21 17:00:07 CEST
+2022-10-21 17:00:08.865 CEST [58828] LOG:  database system is ready to accept connections
+2022-10-21 17:00:24.001 CEST [58922] WARNING:  there is no transaction in progress
+2022-10-21 17:00:24.064 CEST [58922] WARNING:  there is no transaction in progress
+2022-10-21 17:00:24.131 CEST [58922] WARNING:  there is no transaction in progress
+2022-10-21 17:00:24.201 CEST [58922] WARNING:  there is no transaction in progress
+2022-10-21 17:20:51.488 CEST [58828] LOG:  received smart shutdown request
+2022-10-21 17:20:51.490 CEST [58922] FATAL:  terminating connection due to administrator command
+2022-10-21 17:20:51.499 CEST [58828] LOG:  background worker "logical replication launcher" (PID 58835) exited with exit code 1
+2022-10-21 17:20:51.499 CEST [58830] LOG:  shutting down
+2022-10-21 17:20:51.505 CEST [61213] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 17:20:51.505 CEST [61213] HINT:  Is another postmaster (PID 58828) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 17:20:51.523 CEST [58828] LOG:  database system is shut down
+2022-10-21 17:20:53.753 CEST [61233] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 17:20:53.753 CEST [61233] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 17:20:53.760 CEST [61233] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 17:20:53.767 CEST [61234] LOG:  database system was shut down at 2022-10-21 17:20:51 CEST
+2022-10-21 17:20:53.773 CEST [61233] LOG:  database system is ready to accept connections
+2022-10-21 17:21:00.544 CEST [61306] ERROR:  column "artist" of relation "users" does not exist at character 20
+2022-10-21 17:21:00.544 CEST [61306] STATEMENT:  INSERT INTO users (artist, auth, firstName, gender, itemInSession, lastName, length, level, location, method, page, registration, sessionId, song, status, ts, userAgent, userId) VALUES ('Fu', 'Logged In', 'Kevin', 'M', 1, 'Arellano', 280.05832, 'free', 'Harrisburg-Carlisle, PA', 'PUT', 'NextSong', 1540006905796.0, 514, 'Ja I Ty', 200, '2018-11-13T00:40:37.796000'::timestamp, '"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36"', '66')
+2022-10-21 17:21:52.611 CEST [61233] LOG:  received smart shutdown request
+2022-10-21 17:21:52.621 CEST [61233] LOG:  background worker "logical replication launcher" (PID 61243) exited with exit code 1
+2022-10-21 17:21:52.621 CEST [61235] LOG:  shutting down
+2022-10-21 17:21:52.628 CEST [61452] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 17:21:52.628 CEST [61452] HINT:  Is another postmaster (PID 61233) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 17:21:52.651 CEST [61233] LOG:  database system is shut down
+2022-10-21 17:21:54.055 CEST [61470] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 17:21:54.055 CEST [61470] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 17:21:54.061 CEST [61470] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 17:21:54.069 CEST [61471] LOG:  database system was shut down at 2022-10-21 17:21:52 CEST
+2022-10-21 17:21:54.074 CEST [61470] LOG:  database system is ready to accept connections
+2022-10-21 17:21:58.836 CEST [61547] ERROR:  column "artist" of relation "users" does not exist at character 20
+2022-10-21 17:21:58.836 CEST [61547] STATEMENT:  INSERT INTO users (artist, auth, firstName, gender, itemInSession, lastName, length, level, location, method, page, registration, sessionId, song, status, ts, userAgent, userId) VALUES ('Fu', 'Logged In', 'Kevin', 'M', 1, 'Arellano', 280.05832, 'free', 'Harrisburg-Carlisle, PA', 'PUT', 'NextSong', 1540006905796.0, 514, 'Ja I Ty', 200, '2018-11-13T00:40:37.796000'::timestamp, '"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36"', '66')
+2022-10-21 17:22:17.167 CEST [61470] LOG:  received smart shutdown request
+2022-10-21 17:22:17.177 CEST [61470] LOG:  background worker "logical replication launcher" (PID 61477) exited with exit code 1
+2022-10-21 17:22:17.177 CEST [61472] LOG:  shutting down
+2022-10-21 17:22:17.183 CEST [61623] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 17:22:17.183 CEST [61623] HINT:  Is another postmaster (PID 61470) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 17:22:17.213 CEST [61470] LOG:  database system is shut down
+2022-10-21 17:22:18.689 CEST [61642] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 17:22:18.690 CEST [61642] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 17:22:18.695 CEST [61642] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 17:22:18.703 CEST [61643] LOG:  database system was shut down at 2022-10-21 17:22:17 CEST
+2022-10-21 17:22:18.708 CEST [61642] LOG:  database system is ready to accept connections
+2022-10-21 17:22:23.655 CEST [61703] ERROR:  syntax error at or near "," at character 136
+2022-10-21 17:22:23.655 CEST [61703] STATEMENT:  
+	    SELECT song_id, artist_id
+	    FROM (songs JOIN artists ON artists.artist_id = artists.artist_id)
+	    WHERE songs.title = 'Ja I Ty', artists.name = 'Fu', songs.duration = 280.05832
+	
+2022-10-21 17:22:51.931 CEST [61642] LOG:  received smart shutdown request
+2022-10-21 17:22:51.932 CEST [61703] FATAL:  terminating connection due to administrator command
+2022-10-21 17:22:51.942 CEST [61642] LOG:  background worker "logical replication launcher" (PID 61649) exited with exit code 1
+2022-10-21 17:22:51.942 CEST [61644] LOG:  shutting down
+2022-10-21 17:22:51.948 CEST [61828] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 17:22:51.948 CEST [61828] HINT:  Is another postmaster (PID 61642) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 17:22:51.976 CEST [61642] LOG:  database system is shut down
+2022-10-21 17:22:52.554 CEST [61844] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 17:22:52.554 CEST [61844] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 17:22:52.560 CEST [61844] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 17:22:52.568 CEST [61845] LOG:  database system was shut down at 2022-10-21 17:22:51 CEST
+2022-10-21 17:22:52.573 CEST [61844] LOG:  database system is ready to accept connections
+2022-10-21 17:22:56.376 CEST [61879] ERROR:  column reference "artist_id" is ambiguous at character 22
+2022-10-21 17:22:56.376 CEST [61879] STATEMENT:  
+	    SELECT song_id, artist_id
+	    FROM (songs JOIN artists ON artists.artist_id = artists.artist_id)
+	    WHERE songs.title = 'Ja I Ty' AND artists.name = 'Fu' AND songs.duration = 280.05832
+	
+2022-10-21 17:27:55.494 CEST [62295] WARNING:  there is no transaction in progress
+2022-10-21 17:27:55.564 CEST [62295] WARNING:  there is no transaction in progress
+2022-10-21 17:27:55.635 CEST [62295] WARNING:  there is no transaction in progress
+2022-10-21 17:27:55.700 CEST [62295] WARNING:  there is no transaction in progress
+2022-10-21 17:28:50.549 CEST [62406] WARNING:  there is no transaction in progress
+2022-10-21 17:28:50.580 CEST [62406] WARNING:  there is no transaction in progress
+2022-10-21 17:28:50.662 CEST [62406] WARNING:  there is no transaction in progress
+2022-10-21 17:28:50.741 CEST [62406] WARNING:  there is no transaction in progress
+2022-10-21 21:00:40.171 CEST [7525] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 21:00:40.172 CEST [7525] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 21:00:40.178 CEST [7525] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 21:00:40.185 CEST [7526] LOG:  database system was interrupted; last known up at 2022-10-21 17:32:58 CEST
+2022-10-21 21:00:40.288 CEST [7526] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-10-21 21:00:40.292 CEST [7526] LOG:  redo starts at 0/1CCA910
+2022-10-21 21:00:40.292 CEST [7526] LOG:  invalid record length at 0/1CCA9F8: wanted 24, got 0
+2022-10-21 21:00:40.292 CEST [7526] LOG:  redo done at 0/1CCA9C0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-10-21 21:00:40.317 CEST [7525] LOG:  database system is ready to accept connections
+2022-10-21 21:19:33.535 CEST [7525] LOG:  received smart shutdown request
+2022-10-21 21:19:33.543 CEST [10635] FATAL:  terminating connection due to administrator command
+2022-10-21 21:19:33.545 CEST [7525] LOG:  background worker "logical replication launcher" (PID 7532) exited with exit code 1
+2022-10-21 21:19:33.547 CEST [7527] LOG:  shutting down
+2022-10-21 21:19:33.552 CEST [11047] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 21:19:33.552 CEST [11047] HINT:  Is another postmaster (PID 7525) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 21:19:33.576 CEST [7525] LOG:  database system is shut down
+2022-10-21 21:19:34.818 CEST [11067] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 21:19:34.818 CEST [11067] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 21:19:34.824 CEST [11067] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 21:19:34.834 CEST [11068] LOG:  database system was shut down at 2022-10-21 21:19:33 CEST
+2022-10-21 21:19:34.840 CEST [11067] LOG:  database system is ready to accept connections
+2022-10-21 21:20:21.686 CEST [11067] LOG:  received smart shutdown request
+2022-10-21 21:20:21.692 CEST [11067] LOG:  background worker "logical replication launcher" (PID 11074) exited with exit code 1
+2022-10-21 21:20:21.693 CEST [11069] LOG:  shutting down
+2022-10-21 21:20:21.704 CEST [11310] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 21:20:21.704 CEST [11310] HINT:  Is another postmaster (PID 11067) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 21:20:21.727 CEST [11067] LOG:  database system is shut down
+2022-10-21 21:20:22.407 CEST [11325] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 21:20:22.407 CEST [11325] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 21:20:22.413 CEST [11325] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 21:20:22.426 CEST [11326] LOG:  database system was shut down at 2022-10-21 21:20:21 CEST
+2022-10-21 21:20:22.433 CEST [11325] LOG:  database system is ready to accept connections
+2022-10-21 21:22:32.694 CEST [11325] LOG:  received smart shutdown request
+2022-10-21 21:22:32.695 CEST [11402] FATAL:  terminating connection due to administrator command
+2022-10-21 21:22:32.695 CEST [11485] FATAL:  terminating connection due to administrator command
+2022-10-21 21:22:32.698 CEST [11325] LOG:  background worker "logical replication launcher" (PID 11332) exited with exit code 1
+2022-10-21 21:22:32.698 CEST [11327] LOG:  shutting down
+2022-10-21 21:22:32.711 CEST [11665] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 21:22:32.711 CEST [11665] HINT:  Is another postmaster (PID 11325) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 21:22:32.732 CEST [11325] LOG:  database system is shut down
+2022-10-21 21:22:33.200 CEST [11680] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 21:22:33.200 CEST [11680] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 21:22:33.206 CEST [11680] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 21:22:33.214 CEST [11681] LOG:  database system was shut down at 2022-10-21 21:22:32 CEST
+2022-10-21 21:22:33.221 CEST [11680] LOG:  database system is ready to accept connections
+2022-10-21 21:23:31.819 CEST [11680] LOG:  received smart shutdown request
+2022-10-21 21:23:31.819 CEST [11825] FATAL:  terminating connection due to administrator command
+2022-10-21 21:23:31.829 CEST [11680] LOG:  background worker "logical replication launcher" (PID 11687) exited with exit code 1
+2022-10-21 21:23:31.829 CEST [11682] LOG:  shutting down
+2022-10-21 21:23:31.834 CEST [11885] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 21:23:31.834 CEST [11885] HINT:  Is another postmaster (PID 11680) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 21:23:31.859 CEST [11680] LOG:  database system is shut down
+2022-10-21 21:23:32.292 CEST [11901] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 21:23:32.292 CEST [11901] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 21:23:32.298 CEST [11901] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 21:23:32.308 CEST [11902] LOG:  database system was shut down at 2022-10-21 21:23:31 CEST
+2022-10-21 21:23:32.314 CEST [11901] LOG:  database system is ready to accept connections
+2022-10-21 21:23:44.315 CEST [12078] WARNING:  there is no transaction in progress
+2022-10-21 21:23:44.381 CEST [12078] WARNING:  there is no transaction in progress
+2022-10-21 21:23:44.456 CEST [12078] WARNING:  there is no transaction in progress
+2022-10-21 21:23:44.528 CEST [12078] WARNING:  there is no transaction in progress
+2022-10-21 21:28:27.026 CEST [13071] ERROR:  duplicate key value violates unique constraint "songs_pkey"
+2022-10-21 21:28:27.026 CEST [13071] DETAIL:  Key (song_id)=(SONSKXP12A8C13A2C9) already exists.
+2022-10-21 21:28:27.026 CEST [13071] STATEMENT:  INSERT INTO songs (song_id, title, artist_id, year, duration) VALUES ('SONSKXP12A8C13A2C9', 'Native Soul', 'AR0IAWL1187B9A96D0', 2003, 197.19791)
+2022-10-21 22:04:33.253 CEST [11901] LOG:  received smart shutdown request
+2022-10-21 22:04:33.254 CEST [12888] FATAL:  terminating connection due to administrator command
+2022-10-21 22:04:33.255 CEST [12078] FATAL:  terminating connection due to administrator command
+2022-10-21 22:04:33.256 CEST [13071] FATAL:  terminating connection due to administrator command
+2022-10-21 22:04:33.264 CEST [11901] LOG:  background worker "logical replication launcher" (PID 11908) exited with exit code 1
+2022-10-21 22:04:33.264 CEST [11903] LOG:  shutting down
+2022-10-21 22:04:33.271 CEST [15627] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 22:04:33.271 CEST [15627] HINT:  Is another postmaster (PID 11901) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 22:04:33.286 CEST [11901] LOG:  database system is shut down
+2022-10-21 22:04:34.015 CEST [15641] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 22:04:34.016 CEST [15641] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 22:04:34.022 CEST [15641] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 22:04:34.029 CEST [15642] LOG:  database system was shut down at 2022-10-21 22:04:33 CEST
+2022-10-21 22:04:34.036 CEST [15641] LOG:  database system is ready to accept connections
+2022-10-21 22:13:00.290 CEST [15641] LOG:  received smart shutdown request
+2022-10-21 22:13:00.292 CEST [15688] FATAL:  terminating connection due to administrator command
+2022-10-21 22:13:00.301 CEST [15641] LOG:  background worker "logical replication launcher" (PID 15648) exited with exit code 1
+2022-10-21 22:13:00.301 CEST [15643] LOG:  shutting down
+2022-10-21 22:13:00.306 CEST [16665] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 22:13:00.306 CEST [16665] HINT:  Is another postmaster (PID 15641) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 22:13:00.319 CEST [15641] LOG:  database system is shut down
+2022-10-21 22:13:00.836 CEST [16680] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 22:13:00.837 CEST [16680] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 22:13:00.842 CEST [16680] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 22:13:00.850 CEST [16681] LOG:  database system was shut down at 2022-10-21 22:13:00 CEST
+2022-10-21 22:13:00.856 CEST [16680] LOG:  database system is ready to accept connections
+2022-10-21 22:13:07.115 CEST [16761] ERROR:  column "s" does not exist at character 158
+2022-10-21 22:13:07.115 CEST [16761] STATEMENT:  INSERT INTO songs (song_id, title, artist_id, year, duration) VALUES ('SONSKXP12A8C13A2C9', 'Native Soul', 'AR0IAWL1187B9A96D0', 2003, 197.19791)ON CONFLICT (s, o, n, g, _, i, d) DO NOTHING
+2022-10-21 22:14:37.302 CEST [16680] LOG:  received smart shutdown request
+2022-10-21 22:14:37.302 CEST [16761] FATAL:  terminating connection due to administrator command
+2022-10-21 22:14:37.312 CEST [16680] LOG:  background worker "logical replication launcher" (PID 16687) exited with exit code 1
+2022-10-21 22:14:37.312 CEST [16682] LOG:  shutting down
+2022-10-21 22:14:37.317 CEST [17060] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 22:14:37.317 CEST [17060] HINT:  Is another postmaster (PID 16680) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 22:14:37.345 CEST [16680] LOG:  database system is shut down
+2022-10-21 22:14:37.967 CEST [17087] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 22:14:37.967 CEST [17087] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 22:14:37.975 CEST [17087] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 22:14:37.982 CEST [17088] LOG:  database system was shut down at 2022-10-21 22:14:37 CEST
+2022-10-21 22:14:37.988 CEST [17087] LOG:  database system is ready to accept connections
+2022-10-21 22:15:18.330 CEST [17087] LOG:  received smart shutdown request
+2022-10-21 22:15:18.332 CEST [17161] FATAL:  terminating connection due to administrator command
+2022-10-21 22:15:18.340 CEST [17087] LOG:  background worker "logical replication launcher" (PID 17094) exited with exit code 1
+2022-10-21 22:15:18.340 CEST [17089] LOG:  shutting down
+2022-10-21 22:15:18.351 CEST [17246] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 22:15:18.351 CEST [17246] HINT:  Is another postmaster (PID 17087) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 22:15:18.374 CEST [17087] LOG:  database system is shut down
+2022-10-21 22:15:18.842 CEST [17260] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 22:15:18.842 CEST [17260] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 22:15:18.848 CEST [17260] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 22:15:18.855 CEST [17261] LOG:  database system was shut down at 2022-10-21 22:15:18 CEST
+2022-10-21 22:15:18.860 CEST [17260] LOG:  database system is ready to accept connections
+2022-10-21 22:15:57.502 CEST [17260] LOG:  received smart shutdown request
+2022-10-21 22:15:57.504 CEST [17312] FATAL:  terminating connection due to administrator command
+2022-10-21 22:15:57.520 CEST [17260] LOG:  background worker "logical replication launcher" (PID 17267) exited with exit code 1
+2022-10-21 22:15:57.520 CEST [17262] LOG:  shutting down
+2022-10-21 22:15:57.521 CEST [17384] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 22:15:57.521 CEST [17384] HINT:  Is another postmaster (PID 17260) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 22:15:57.552 CEST [17260] LOG:  database system is shut down
+2022-10-21 22:15:57.919 CEST [17399] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 22:15:57.919 CEST [17399] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 22:15:57.925 CEST [17399] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 22:15:57.932 CEST [17400] LOG:  database system was shut down at 2022-10-21 22:15:57 CEST
+2022-10-21 22:15:57.938 CEST [17399] LOG:  database system is ready to accept connections
+2022-10-21 22:17:35.264 CEST [17399] LOG:  received smart shutdown request
+2022-10-21 22:17:35.266 CEST [17458] FATAL:  terminating connection due to administrator command
+2022-10-21 22:17:35.275 CEST [17399] LOG:  background worker "logical replication launcher" (PID 17406) exited with exit code 1
+2022-10-21 22:17:35.275 CEST [17401] LOG:  shutting down
+2022-10-21 22:17:35.280 CEST [17700] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 22:17:35.280 CEST [17700] HINT:  Is another postmaster (PID 17399) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 22:17:35.311 CEST [17399] LOG:  database system is shut down
+2022-10-21 22:17:36.087 CEST [17715] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 22:17:36.087 CEST [17715] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 22:17:36.094 CEST [17715] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 22:17:36.102 CEST [17716] LOG:  database system was shut down at 2022-10-21 22:17:35 CEST
+2022-10-21 22:17:36.109 CEST [17715] LOG:  database system is ready to accept connections
+2022-10-21 22:17:51.162 CEST [17805] ERROR:  invalid input syntax for type integer: "SOZCTXZ12AB0182364" at character 187
+2022-10-21 22:17:51.162 CEST [17805] STATEMENT:  INSERT INTO songplays (songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent) VALUES (483, '2018-11-21T21:56:47.796000'::timestamp, '15', 'paid', 'SOZCTXZ12AB0182364', 'AR5KOSW1187FB35FF4', 818, 'Chicago-Naperville-Elgin, IL-IN-WI', '"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1985.125 Chrome/36.0.1985.125 Safari/537.36"') ON CONFLICT (songplay_id) DO NOTHING
+2022-10-21 22:19:27.126 CEST [17715] LOG:  received smart shutdown request
+2022-10-21 22:19:27.127 CEST [17805] FATAL:  terminating connection due to administrator command
+2022-10-21 22:19:27.136 CEST [17715] LOG:  background worker "logical replication launcher" (PID 17722) exited with exit code 1
+2022-10-21 22:19:27.136 CEST [17717] LOG:  shutting down
+2022-10-21 22:19:27.147 CEST [18024] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 22:19:27.147 CEST [18024] HINT:  Is another postmaster (PID 17715) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 22:19:27.172 CEST [17715] LOG:  database system is shut down
+2022-10-21 22:19:27.708 CEST [18039] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 22:19:27.708 CEST [18039] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 22:19:27.714 CEST [18039] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 22:19:27.721 CEST [18040] LOG:  database system was shut down at 2022-10-21 22:19:27 CEST
+2022-10-21 22:19:27.727 CEST [18039] LOG:  database system is ready to accept connections
+2022-10-21 22:19:36.524 CEST [18112] ERROR:  invalid input syntax for type integer: "SOZCTXZ12AB0182364" at character 187
+2022-10-21 22:19:36.524 CEST [18112] STATEMENT:  INSERT INTO songplays (songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent) VALUES (483, '2018-11-21T21:56:47.796000'::timestamp, '15', 'paid', 'SOZCTXZ12AB0182364', 'AR5KOSW1187FB35FF4', 818, 'Chicago-Naperville-Elgin, IL-IN-WI', '"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1985.125 Chrome/36.0.1985.125 Safari/537.36"') ON CONFLICT (songplay_id) DO NOTHING
+2022-10-21 22:20:37.017 CEST [18039] LOG:  received smart shutdown request
+2022-10-21 22:20:37.017 CEST [18112] FATAL:  terminating connection due to administrator command
+2022-10-21 22:20:37.027 CEST [18039] LOG:  background worker "logical replication launcher" (PID 18046) exited with exit code 1
+2022-10-21 22:20:37.027 CEST [18041] LOG:  shutting down
+2022-10-21 22:20:37.038 CEST [18311] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 22:20:37.038 CEST [18311] HINT:  Is another postmaster (PID 18039) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 22:20:37.068 CEST [18039] LOG:  database system is shut down
+2022-10-21 22:20:37.706 CEST [18327] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 22:20:37.706 CEST [18327] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 22:20:37.712 CEST [18327] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 22:20:37.720 CEST [18328] LOG:  database system was shut down at 2022-10-21 22:20:37 CEST
+2022-10-21 22:20:37.726 CEST [18327] LOG:  database system is ready to accept connections
+2022-10-21 22:24:41.154 CEST [18327] LOG:  received smart shutdown request
+2022-10-21 22:24:41.155 CEST [18412] FATAL:  terminating connection due to administrator command
+2022-10-21 22:24:41.165 CEST [18327] LOG:  background worker "logical replication launcher" (PID 18334) exited with exit code 1
+2022-10-21 22:24:41.165 CEST [18329] LOG:  shutting down
+2022-10-21 22:24:41.170 CEST [19032] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 22:24:41.170 CEST [19032] HINT:  Is another postmaster (PID 18327) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 22:24:41.196 CEST [18327] LOG:  database system is shut down
+2022-10-21 22:24:42.425 CEST [19059] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 22:24:42.426 CEST [19059] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 22:24:42.432 CEST [19059] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 22:24:42.442 CEST [19064] LOG:  database system was shut down at 2022-10-21 22:24:41 CEST
+2022-10-21 22:24:42.448 CEST [19059] LOG:  database system is ready to accept connections
+2022-10-21 22:24:52.299 CEST [19146] ERROR:  invalid input syntax for type integer: "SOZCTXZ12AB0182364" at character 187
+2022-10-21 22:24:52.299 CEST [19146] STATEMENT:  INSERT INTO songplays (songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent) VALUES (483, '2018-11-21T21:56:47.796000'::timestamp, '15', 'paid', 'SOZCTXZ12AB0182364', 'AR5KOSW1187FB35FF4', 818, 'Chicago-Naperville-Elgin, IL-IN-WI', '"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1985.125 Chrome/36.0.1985.125 Safari/537.36"') ON CONFLICT (songplay_id) DO NOTHING
+2022-10-21 22:28:02.436 CEST [19059] LOG:  received smart shutdown request
+2022-10-21 22:28:02.440 CEST [19146] FATAL:  terminating connection due to administrator command
+2022-10-21 22:28:02.447 CEST [19059] LOG:  background worker "logical replication launcher" (PID 19070) exited with exit code 1
+2022-10-21 22:28:02.447 CEST [19065] LOG:  shutting down
+2022-10-21 22:28:02.453 CEST [19375] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 22:28:02.453 CEST [19375] HINT:  Is another postmaster (PID 19059) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 22:28:02.479 CEST [19059] LOG:  database system is shut down
+2022-10-21 22:28:04.155 CEST [19400] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 22:28:04.155 CEST [19400] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 22:28:04.161 CEST [19400] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 22:28:04.168 CEST [19401] LOG:  database system was shut down at 2022-10-21 22:28:02 CEST
+2022-10-21 22:28:04.174 CEST [19400] LOG:  database system is ready to accept connections
+2022-10-21 22:28:14.503 CEST [19475] ERROR:  invalid input syntax for type integer: "SOZCTXZ12AB0182364" at character 187
+2022-10-21 22:28:14.503 CEST [19475] STATEMENT:  INSERT INTO songplays (songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent) VALUES (483, '2018-11-21T21:56:47.796000'::timestamp, '15', 'paid', 'SOZCTXZ12AB0182364', 'AR5KOSW1187FB35FF4', 818, 'Chicago-Naperville-Elgin, IL-IN-WI', '"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1985.125 Chrome/36.0.1985.125 Safari/537.36"') ON CONFLICT (songplay_id) DO NOTHING
+2022-10-21 22:28:47.786 CEST [19556] WARNING:  there is no transaction in progress
+2022-10-21 22:28:47.874 CEST [19556] WARNING:  there is no transaction in progress
+2022-10-21 22:28:47.934 CEST [19556] WARNING:  there is no transaction in progress
+2022-10-21 22:28:47.999 CEST [19556] WARNING:  there is no transaction in progress
+2022-10-21 22:29:28.153 CEST [19475] FATAL:  terminating connection due to administrator command
+2022-10-21 22:29:28.153 CEST [19400] LOG:  received smart shutdown request
+2022-10-21 22:29:28.154 CEST [19556] FATAL:  terminating connection due to administrator command
+2022-10-21 22:29:28.164 CEST [19400] LOG:  background worker "logical replication launcher" (PID 19407) exited with exit code 1
+2022-10-21 22:29:28.164 CEST [19402] LOG:  shutting down
+2022-10-21 22:29:28.168 CEST [19638] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 22:29:28.168 CEST [19638] HINT:  Is another postmaster (PID 19400) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 22:29:28.197 CEST [19400] LOG:  database system is shut down
+2022-10-21 22:29:29.664 CEST [19675] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 22:29:29.664 CEST [19675] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 22:29:29.670 CEST [19675] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 22:29:29.677 CEST [19676] LOG:  database system was shut down at 2022-10-21 22:29:28 CEST
+2022-10-21 22:29:29.683 CEST [19675] LOG:  database system is ready to accept connections
+2022-10-21 22:29:42.448 CEST [19776] ERROR:  invalid input syntax for type integer: "SOZCTXZ12AB0182364" at character 187
+2022-10-21 22:29:42.448 CEST [19776] STATEMENT:  INSERT INTO songplays (songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent) VALUES (483, '2018-11-21T21:56:47.796000'::timestamp, '15', 'paid', 'SOZCTXZ12AB0182364', 'AR5KOSW1187FB35FF4', 818, 'Chicago-Naperville-Elgin, IL-IN-WI', '"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/36.0.1985.125 Chrome/36.0.1985.125 Safari/537.36"') ON CONFLICT (songplay_id) DO NOTHING
+2022-10-21 22:30:47.482 CEST [19869] WARNING:  there is no transaction in progress
+2022-10-21 22:30:47.547 CEST [19869] WARNING:  there is no transaction in progress
+2022-10-21 22:30:47.611 CEST [19869] WARNING:  there is no transaction in progress
+2022-10-21 22:30:47.683 CEST [19869] WARNING:  there is no transaction in progress
+2022-10-21 22:31:18.885 CEST [19675] LOG:  received smart shutdown request
+2022-10-21 22:31:18.886 CEST [19776] FATAL:  terminating connection due to administrator command
+2022-10-21 22:31:18.887 CEST [19869] FATAL:  terminating connection due to administrator command
+2022-10-21 22:31:18.889 CEST [19675] LOG:  background worker "logical replication launcher" (PID 19682) exited with exit code 1
+2022-10-21 22:31:18.904 CEST [20997] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 22:31:18.904 CEST [20997] HINT:  Is another postmaster (PID 19675) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 22:31:18.918 CEST [19677] LOG:  shutting down
+2022-10-21 22:31:18.951 CEST [19675] LOG:  database system is shut down
+2022-10-21 22:31:20.345 CEST [21033] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 22:31:20.345 CEST [21033] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 22:31:20.351 CEST [21033] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 22:31:20.361 CEST [21036] LOG:  database system was shut down at 2022-10-21 22:31:18 CEST
+2022-10-21 22:31:20.367 CEST [21033] LOG:  database system is ready to accept connections
+2022-10-21 22:32:59.239 CEST [21033] LOG:  received smart shutdown request
+2022-10-21 22:32:59.243 CEST [21033] LOG:  background worker "logical replication launcher" (PID 21042) exited with exit code 1
+2022-10-21 22:32:59.243 CEST [21037] LOG:  shutting down
+2022-10-21 22:32:59.259 CEST [21971] FATAL:  lock file "postmaster.pid" already exists
+2022-10-21 22:32:59.259 CEST [21971] HINT:  Is another postmaster (PID 21033) running in data directory "/home/uziel/Development/sparkify/base_db"?
+2022-10-21 22:32:59.282 CEST [21033] LOG:  database system is shut down
+2022-10-21 22:33:00.207 CEST [21992] LOG:  starting PostgreSQL 14.5 on x86_64-conda-linux-gnu, compiled by x86_64-conda-linux-gnu-cc (conda-forge gcc 10.4.0-16) 10.4.0, 64-bit
+2022-10-21 22:33:00.207 CEST [21992] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-10-21 22:33:00.213 CEST [21992] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-10-21 22:33:00.220 CEST [21993] LOG:  database system was shut down at 2022-10-21 22:32:59 CEST
+2022-10-21 22:33:00.226 CEST [21992] LOG:  database system is ready to accept connections
+2022-10-21 22:35:18.540 CEST [22314] WARNING:  there is no transaction in progress
+2022-10-21 22:35:18.605 CEST [22314] WARNING:  there is no transaction in progress
+2022-10-21 22:35:18.669 CEST [22314] WARNING:  there is no transaction in progress
+2022-10-21 22:35:18.748 CEST [22314] WARNING:  there is no transaction in progress
+2022-10-21 22:46:00.552 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:01.197 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:01.197 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:01.843 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:01.843 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:02.488 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:02.488 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:03.134 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:03.134 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:03.781 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:03.781 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:04.427 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:04.427 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:05.072 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:05.072 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:05.718 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:05.718 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:06.363 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:06.363 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:07.009 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:07.009 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:07.655 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:07.655 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:08.300 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:08.300 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:08.946 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:08.946 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:09.592 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:09.592 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:10.238 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:10.238 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:10.641 CEST [21997] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-10-21 22:46:10.641 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:10.641 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:11.287 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:11.287 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:11.933 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:11.933 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:12.579 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:12.579 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:13.225 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:13.225 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:13.871 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:13.871 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:14.517 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:14.517 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:15.162 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:15.163 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:15.808 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:15.808 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:16.465 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:16.465 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:17.111 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:17.111 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:17.757 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:17.757 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:18.402 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:18.402 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:19.047 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:19.048 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:19.693 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:19.693 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:20.339 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:20.339 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:20.742 CEST [21997] LOG:  using stale statistics instead of current ones because stats collector is not responding
+2022-10-21 22:46:20.743 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:20.750 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:21.389 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:21.389 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:22.034 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:22.034 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:22.680 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:22.680 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:23.326 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:23.326 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:23.971 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:23.971 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:24.627 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:24.627 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:25.273 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:25.273 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:25.919 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:25.919 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:26.565 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:26.565 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:27.211 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:27.211 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:27.857 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:27.857 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:28.502 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:28.502 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:29.148 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:29.148 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:29.793 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:29.793 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:30.439 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:30.439 CEST [21998] LOG:  could not open temporary statistics file "pg_stat_tmp/global.tmp": No such file or directory
+2022-10-21 22:46:30.648 CEST [21992] LOG:  could not open file "postmaster.pid": No such file or directory
+2022-10-21 22:46:30.648 CEST [21992] LOG:  performing immediate shutdown because data directory lock file is invalid
+2022-10-21 22:46:30.648 CEST [21992] LOG:  received immediate shutdown request
+2022-10-21 22:46:30.648 CEST [21992] LOG:  could not open file "postmaster.pid": No such file or directory
+2022-10-21 22:46:30.648 CEST [21998] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2022-10-21 22:46:30.654 CEST [21992] LOG:  database system is shut down
