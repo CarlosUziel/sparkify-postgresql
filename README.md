@@ -29,7 +29,7 @@
 
 # Sparkify
 
-A project from the [Data Engineering Nanodegree Program at Udacity](https://learn.udacity.com/nanodegrees/nd027) to practice data modeling in relational databases using PostgreSQL.
+A project from the [Data Engineer Nanodegree Program at Udacity](https://www.udacity.com/course/data-engineer-nanodegree--nd027) to practice data modeling in relational databases using PostgreSQL.
 
 ## About The Project
 
@@ -311,7 +311,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgments
 
-This README includes a summary of the official project description provided to the students of the [Data Engineering Nanodegree Program at Udacity](https://learn.udacity.com/nanodegrees/nd027).
+This README includes a summary of the official project description provided to the students of the [Data Engineer Nanodegree Program at Udacity](https://www.udacity.com/course/data-engineer-nanodegree--nd027).
 
 Part of the contents and structure of this README was inspired by [kenhanscombe](https://github.com/kenhanscombe/project-postgres).
 
