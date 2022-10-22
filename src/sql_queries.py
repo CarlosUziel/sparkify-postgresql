@@ -1,9 +1,40 @@
-from typing import Dict, Iterable
+from collections import OrderedDict
+from typing import Dict, Iterable, Optional
 
 from pyparsing import Path
 
-TABLES: Dict[str, Iterable[str]] = {
-    "songplays": (
+TABLES: OrderedDict[str, Iterable[str]] = OrderedDict(
+    users=(
+        "user_id int PRIMARY KEY",
+        "first_name text",
+        "last_name text",
+        "gender text",
+        "level text",
+    ),
+    artists=(
+        "artist_id text PRIMARY KEY",
+        "name text",
+        "location text",
+        "latitude numeric",
+        "longitude numeric",
+    ),
+    songs=(
+        "song_id text PRIMARY KEY",
+        "title text",
+        "artist_id text",
+        "year int",
+        "duration numeric",
+    ),
+    time=(
+        "start_time timestamp PRIMARY KEY",
+        "hour int",
+        "day int",
+        "week int",
+        "month int",
+        "year int",
+        "weekday int",
+    ),
+    songplays=(
         "songplay_id int PRIMARY KEY",
         "start_time timestamp",
         "user_id int",
@@ -14,37 +45,7 @@ TABLES: Dict[str, Iterable[str]] = {
         "location text",
         "user_agent text",
     ),
-    "users": (
-        "user_id int PRIMARY KEY",
-        "first_name text",
-        "last_name text",
-        "gender text",
-        "level text",
-    ),
-    "songs": (
-        "song_id text PRIMARY KEY",
-        "title text",
-        "artist_id text",
-        "year int",
-        "duration numeric",
-    ),
-    "artists": (
-        "artist_id text PRIMARY KEY",
-        "name text",
-        "location text",
-        "latitude numeric",
-        "longitude numeric",
-    ),
-    "time": (
-        "start_time timestamp PRIMARY KEY",
-        "hour int",
-        "day int",
-        "week int",
-        "month int",
-        "year int",
-        "weekday int",
-    ),
-}
+)
 
 
 def get_drop_table_query(table_name: str) -> str:
@@ -122,8 +123,32 @@ def get_simple_select_query(
     )
 
 
+table_constraints: Dict[str, str] = {
+    "songplays": (
+        (
+            "CONSTRAINT FK_songplays_time FOREIGN KEY(start_time) REFERENCES"
+            " time(start_time)"
+        ),
+        "CONSTRAINT FK_songplays_users FOREIGN KEY(user_id) REFERENCES users(user_id)",
+        "CONSTRAINT FK_songplays_songs FOREIGN KEY(song_id) REFERENCES songs(song_id)",
+        (
+            "CONSTRAINT FK_songplays_artists FOREIGN KEY(artist_id) REFERENCES"
+            " artists(artist_id)"
+        ),
+    ),
+    # this is incompatible with etl.ipynb (songs inserted before artists).
+    # "songs": (
+    #     (
+    #         "CONSTRAINT FK_songs_artists FOREIGN KEY(artist_id) REFERENCES"
+    #         " artists(artist_id)"
+    #     ),
+    # ),
+}
+
 create_table_queries: Iterable[str] = [
-    get_create_table_query(table_name, table_args)
+    get_create_table_query(
+        table_name, [*table_args, *table_constraints.get(table_name, [])]
+    )
     for table_name, table_args in TABLES.items()
 ]
 drop_table_queries: Iterable[str] = [
