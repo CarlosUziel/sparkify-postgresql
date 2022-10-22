@@ -244,7 +244,7 @@ songplays has 532 records.
 cur.execute(
     """
     SELECT
-        t.user_id, users.first_name, users.last_name, t.counted
+        sub.user_id, users.first_name, users.last_name, sub.counted
     FROM
         (
             SELECT
@@ -253,11 +253,11 @@ cur.execute(
                 (songplays JOIN users ON songplays.user_id = users.user_id)
             GROUP BY
                 songplays.user_id
-        ) t
+        ) sub
     JOIN
-        users ON t.user_id = users.user_id
+        users ON sub.user_id = users.user_id
     ORDER BY
-        t.counted DESC, user_id
+        sub.counted DESC, user_id
     LIMIT 5
     """
 )
