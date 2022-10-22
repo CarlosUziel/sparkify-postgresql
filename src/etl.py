@@ -158,6 +158,15 @@ def process_log_file(cur: Any, filepath: Path, load_copy: bool = False):
 def process_data(
     cur: Any, conn: Any, filepath: Path, func: Callable, file_pattern: str = "**/*.json"
 ):
+    """Process data in the form of .json files
+
+    Args:
+        cur: database cursor.
+        conn: database connection.
+        filepath: parent directory of .json files.
+        func: a callable that processes each file.
+        file_pattern: pattern to find .json files.
+    """
     # 1. Get all files matching extension from directory
     all_files = [f.resolve() for f in filepath.glob(file_pattern)]
     logging.info(f"{len(all_files)} files found in {filepath}")
