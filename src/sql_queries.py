@@ -2,7 +2,7 @@ from typing import Dict, Iterable
 
 from pyparsing import Path
 
-SCHEMA: Dict[str, Iterable[str]] = {
+TABLES: Dict[str, Iterable[str]] = {
     "songplays": (
         "songplay_id int PRIMARY KEY",
         "start_time timestamp",
@@ -48,20 +48,37 @@ SCHEMA: Dict[str, Iterable[str]] = {
 
 
 def get_drop_table_query(table_name: str) -> str:
-    """Generate a DROP TABLE query given a table name."""
+    """Generate a DROP TABLE query given a table name.
+
+    Args:
+        table_name: table name.
+    """
     return f"DROP TABLE IF EXISTS {table_name};"
 
 
 def get_create_table_query(table_name: str, table_args: Iterable[str]) -> str:
-    """Generate a CREATE TABLE query given a table name and a list of arguments."""
+    """Generate a CREATE TABLE query given a table name and a list of arguments.
+
+    Args:
+        table_name: table name.
+        table_args: An iterable of strings including column names, data types and any
+            other modfiers.
+    """
     return f"CREATE TABLE IF NOT EXISTS {table_name} ({', '.join(table_args)});"
 
 
 def get_insert_query(
     table_name: str,
     columns: Iterable[str],
-    conflict_nothing_cols: Iterable[str] = None,
-):
+    conflict_nothing_cols: Optional[Iterable[str]] = None,
+) -> str:
+    """Insert row into the given table.
+
+    Args:
+       table_name: table name.
+       columns: Columns into which to insert row data.
+       conflict_nothing_cols: if there is a conflict in these columns, do nothing.
+    """
     return (
         f"INSERT INTO {table_name} ({', '.join(columns)}) VALUES "
         f"({', '.join(['%s'] * len(columns))})"
@@ -77,12 +94,40 @@ def get_copy_json_query(table_name: str, columns: Iterable[str], ndjson_file: Pa
     return f"COPY {table_name} ({columns}) FROM {ndjson_file}"
 
 
+def get_simple_select_query(
+    columns: Iterable[str],
+    table_name: str,
+    where_columns: Optional[Dict[str, str]] = None,
+    limit: Optional[int] = None,
+) -> str:
+    """Generate a simple select query.
+
+    Args:
+        columns: columns to select.
+        table_name: table name to select columns from.
+        where_columns: optionally, add a where clause. The keys and values in the
+            dictionary will build an equality (i.e. WHERE key = value).
+        limit: Optionally, add a query limit.
+
+    """
+    where_columns_str = (
+        [f"{key} = {value}" for key, value in where_columns.items()]
+        if where_columns
+        else None
+    )
+    return (
+        f"SELECT {', '.join(columns)} FROM {table_name} "
+        + (f" WHERE {', '.join(where_columns_str)}" if where_columns_str else "")
+        + (f" LIMIT {limit}" if limit else "")
+    )
+
+
 create_table_queries: Iterable[str] = [
     get_create_table_query(table_name, table_args)
-    for table_name, table_args in SCHEMA.items()
+    for table_name, table_args in TABLES.items()
 ]
 drop_table_queries: Iterable[str] = [
-    get_drop_table_query(table_name) for table_name in SCHEMA.keys()
+    get_drop_table_query(table_name) for table_name in TABLES.keys()
 ]
 
 
