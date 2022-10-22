@@ -27,8 +27,6 @@
   </ol>
 </details>
 
-**WORK IN PROGRESS**
-
 # Sparkify
 A project from the [Data Engineering Nanodegree Program at Udacity](https://learn.udacity.com/nanodegrees/nd027) to practice data modeling in relational databases using PostgreSQL.
 
@@ -108,7 +106,9 @@ The log files are named following a date pattern (`{year}_{month}_{day}_events.j
 
 ### Data Schema
 
-This project uses a star schema that is better understood through an Entity Relationship Diagram (ERD). The following image shows the ERD of the completed project, as obtained with **pgadmin4**.
+This project uses a star schema that is better visualized through an Entity Relationship Diagram (ERD). The following image shows the ERD of the completed project, as obtained with **pgadmin4**.
+
+Here, *songplays* is a **fact table**, whereas *artists*, *songs*, *time* and *users* are **dimension tables**. The fact table is referencing the rest through foreign keys.
 
 ![Sparkify ERD](images/ERD.png)
 
@@ -136,7 +136,7 @@ conda install -n base -c conda-forge mamba
 Install environment using provided file:
 
 ```bash
-mamba create -f environment.yml # alternatively use environment_core.yml
+mamba create -f environment.yml # alternatively use environment_core.yml if base system is not debian
 mamba activate sparkify
 ```
 
@@ -154,7 +154,7 @@ Start postgress server:
 pg_ctl -D base_db -l logfile start
 ```
 
-Create super user:
+Create student super user:
 
 ```bash
 createuser -s --encrypted --pwprompt student
@@ -168,15 +168,126 @@ createdb --owner=student studentdb
 
 ## Usage
 
-...
+Project structure:
 
+- `data`: where both datasets are stored.
+- `notebooks`: contains Jupyter notebooks for testing purposes.
+- `src`: contains the source files and scripts to build the database and populate.
+
+To create the database and tables, run:
+
+```bash
+python src/create_tables.py
+```
+
+This can also be done from within a python instance:
+
+```python
+from create_tables import main as run_create_tables
+run_create_tables()
+```
+
+To load the data and populate the database, run:
+
+```bash
+python src/etl.py
+```
+
+This can also be done from within a python instance:
+
+```python
+from etl import main as run_etl
+run_etl()
+```
+
+Helper functions to generate standard SQL queries as well as the database schema can be found in `src/sql_queries.py`.
+
+### Example queries
+
+To query the database, first start a connection:
+
+```python
+import psycopg2
+
+conn = psycopg2.connect(
+    "host=127.0.0.1 dbname=sparkifydb user=student password=student"
+)
+cur = conn.cursor()
+```
+
+**How many records are in each table?**
+
+```python
+from sql_queries import TABLES
+
+for table_name in TABLES.keys():
+    cur.execute(
+        f"SELECT count(*) FROM {table_name}"
+    )
+    print(f"{table_name} has {cur.fetchone()[0]} records.")
+```
+
+*Output:*
+
+```
+users has 96 records.
+artists has 69 records.
+songs has 71 records.
+time has 6813 records.
+songplays has 532 records.
+```
+
+**Who are the top 5 users with the highest activity?**
+
+```python
+cur.execute(
+    """
+    SELECT
+        t.user_id, users.first_name, users.last_name, t.counted
+    FROM
+        (
+            SELECT
+                songplays.user_id, count(*) AS counted
+            FROM
+                (songplays JOIN users ON songplays.user_id = users.user_id)
+            GROUP BY
+                songplays.user_id
+        ) t
+    JOIN
+        users ON t.user_id = users.user_id
+    ORDER BY
+        t.counted DESC, user_id
+    LIMIT 5
+    """
+)
+pd.DataFrame(cur.fetchall(), columns=("user_id", "first_name", "second_name", "count"))
+```
+
+*Output:*
+
+```bash
+        user_id   first_name    second_name    count
+
+0           29    Jacqueline    Lynch           104
+1           97    Kate          Harrell         68
+2           95    Sara          Johnson         67
+3           49    Chloe         Cuevas          66
+4           44    Aleena        Kirby           62
+```
+
+When done interacting with the database, close the connection:
+
+```python
+cur.close()
+conn.close()
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ## Additional Notes
 
-Code formatted using the following commands:
+Source files formatted using the following commands:
 
 ```bash
 isort .
