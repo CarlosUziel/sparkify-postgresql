@@ -15,12 +15,12 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#conda">Setting up a conda environment</a></li>
-        <li><a href="#postgres">Initializing PostgreSQL database</a></li>
+        <li><a href="#setting-up-a-conda-environment">Setting up a conda environment</a></li>
+        <li><a href="#initializing-postgresql-database">Initializing PostgreSQL database</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#notes">Additional Notes</a></li>
+    <li><a href="#additional-notes">Additional Notes</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -28,6 +28,7 @@
 </details>
 
 # Sparkify
+
 A project from the [Data Engineering Nanodegree Program at Udacity](https://learn.udacity.com/nanodegrees/nd027) to practice data modeling in relational databases using PostgreSQL.
 
 ## About The Project
@@ -283,7 +284,6 @@ conn.close()
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 ## Additional Notes
 
