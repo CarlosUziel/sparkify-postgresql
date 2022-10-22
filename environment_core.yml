@@ -1,0 +1,20 @@
+name: sparkify
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - psycopg2
+  - postgresql
+  - ca-certificates
+  - openssl
+  - jupyterlab
+  - ipython-sql
+  - certifi
+  - black
+  - isort
+  - autoflake
+  - tqdm
+  - rich
+  - ipywidgets
