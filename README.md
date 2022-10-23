@@ -27,7 +27,7 @@
   </ol>
 </details>
 
-# Sparkify
+# Sparkify (using PostgreSQL)
 
 A project from the [Data Engineer Nanodegree Program at Udacity](https://www.udacity.com/course/data-engineer-nanodegree--nd027) to practice data modeling in relational databases using PostgreSQL.
 
@@ -138,7 +138,7 @@ Install environment using provided file:
 
 ```bash
 mamba create -f environment.yml # alternatively use environment_core.yml if base system is not debian
-mamba activate sparkify
+mamba activate sparkify_postgresql
 ```
 
 ### Initializing PostgreSQL database
