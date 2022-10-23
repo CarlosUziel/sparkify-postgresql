@@ -71,21 +71,30 @@ def get_create_table_query(table_name: str, table_args: Iterable[str]) -> str:
 def get_insert_query(
     table_name: str,
     columns: Iterable[str],
-    conflict_nothing_cols: Optional[Iterable[str]] = None,
+    conflict_cols: Optional[Iterable[str]] = None,
+    conflict_do: str = "NOTHING",
+    update_cols: Optional[Iterable[str]] = None,
 ) -> str:
     """Insert row into the given table.
 
     Args:
        table_name: table name.
        columns: Columns into which to insert row data.
-       conflict_nothing_cols: if there is a conflict in these columns, do nothing.
+       conflict_cols: if there is a conflict in these columns, do something.
+       conflict_do: what to do in case of conflict.
+       update_cols: if update on conflict, what columns to update.
     """
     return (
         f"INSERT INTO {table_name} ({', '.join(columns)}) VALUES "
         f"({', '.join(['%s'] * len(columns))})"
         + (
-            f" ON CONFLICT ({', '.join(conflict_nothing_cols)}) DO NOTHING"
-            if conflict_nothing_cols
+            f" ON CONFLICT ({', '.join(conflict_cols)}) DO {conflict_do}"
+            if conflict_cols and conflict_do
+            else ""
+        )
+        + (
+            (" SET " + ", ".join([f"{col} = EXCLUDED.{col}" for col in update_cols]))
+            if conflict_cols and conflict_do == "UPDATE" and update_cols
             else ""
         )
     )
