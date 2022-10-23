@@ -23,7 +23,7 @@ def process_song_file(cur: Any, filepath: Path):
     song_columns = ["song_id", "title", "artist_id", "year", "duration"]
     song_data = song_meta[song_columns]
     cur.execute(
-        get_insert_query("songs", song_data.index, conflict_nothing_cols=("song_id",)),
+        get_insert_query("songs", song_data.index, conflict_cols=("song_id",)),
         song_data.values,
     )
 
@@ -40,7 +40,7 @@ def process_song_file(cur: Any, filepath: Path):
         get_insert_query(
             "artists",
             ("artist_id", "name", "location", "latitude", "longitude"),
-            conflict_nothing_cols=("artist_id",),
+            conflict_cols=("artist_id",),
         ),
         artist_data.values,
     )
@@ -82,9 +82,7 @@ def process_log_file(cur: Any, filepath: Path, load_copy: bool = False):
     else:
         for _, row in time_df.iterrows():
             cur.execute(
-                get_insert_query(
-                    "time", row.index, conflict_nothing_cols=("start_time",)
-                ),
+                get_insert_query("time", row.index, conflict_cols=("start_time",)),
                 row.values,
             )
 
@@ -109,7 +107,11 @@ def process_log_file(cur: Any, filepath: Path, load_copy: bool = False):
         for _, row in user_df.iterrows():
             cur.execute(
                 get_insert_query(
-                    "users", row.index, conflict_nothing_cols=("user_id",)
+                    "users",
+                    row.index,
+                    conflict_cols=("user_id",),
+                    conflict_do="UPDATE",
+                    update_cols=("level",),
                 ),
                 row.values,
             )
@@ -139,7 +141,10 @@ def process_log_file(cur: Any, filepath: Path, load_copy: bool = False):
         # 7.2. Insert songplay record
         cur.execute(
             get_insert_query(
-                "songplays", songplay_cols, conflict_nothing_cols=("songplay_id",)
+                "songplays",
+                songplay_cols,
+                conflict_cols=("songplay_id",),
+                conflict_do="NOTHING",
             ),
             (
                 index,
