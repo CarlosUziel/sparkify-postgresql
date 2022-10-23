@@ -173,7 +173,7 @@ Project structure:
 
 - `data`: where both datasets are stored.
 - `notebooks`: contains Jupyter notebooks for testing purposes.
-- `src`: contains the source files and scripts to build the database and populate.
+- `src`: contains the source files and scripts to build and populate the database.
 
 To create the database and tables, run:
 
