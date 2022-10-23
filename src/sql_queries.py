@@ -93,7 +93,7 @@ def get_insert_query(
             else ""
         )
         + (
-            (" SET " + ", ".join([f"{col} = EXCLUDED.{col}" for col in update_cols]))
+            (" SET " + ", ".join([f"{col} = excluded.{col}" for col in update_cols]))
             if conflict_cols and conflict_do == "UPDATE" and update_cols
             else ""
         )
