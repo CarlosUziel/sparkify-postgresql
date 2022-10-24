@@ -88,13 +88,15 @@ def get_insert_query(
         f"INSERT INTO {table_name} ({', '.join(columns)}) VALUES "
         f"({', '.join(['%s'] * len(columns))})"
         + (
-            f" ON CONFLICT ({', '.join(conflict_cols)}) DO {conflict_do}"
-            if conflict_cols and conflict_do
+            f"ON CONFLICT ({', '.join(conflict_cols)}) DO {conflict_do} "
+            if conflict_cols is not None and conflict_do is not None
             else ""
         )
         + (
-            (" SET " + ", ".join([f"{col} = excluded.{col}" for col in update_cols]))
-            if conflict_cols and conflict_do == "UPDATE" and update_cols
+            ("SET " + ", ".join([f"{col} = excluded.{col} " for col in update_cols]))
+            if conflict_cols is not None
+            and conflict_do == "UPDATE"
+            and update_cols is not None
             else ""
         )
     )
@@ -105,8 +107,8 @@ def get_copy_json_query(table_name: str, columns: Iterable[str], ndjson_file: Pa
 
 
 def get_simple_select_query(
-    columns: Iterable[str],
     table_name: str,
+    columns: Iterable[str],
     where_columns: Optional[Dict[str, str]] = None,
     limit: Optional[int] = None,
 ) -> str:
