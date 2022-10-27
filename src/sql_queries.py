@@ -1,7 +1,6 @@
 from collections import OrderedDict
+from pathlib import Path
 from typing import Dict, Iterable, Optional
-
-from pyparsing import Path
 
 TABLES: OrderedDict[str, Iterable[str]] = OrderedDict(
     users=(
