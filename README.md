@@ -137,7 +137,7 @@ conda install -n base -c conda-forge mamba
 Install environment using provided file:
 
 ```bash
-mamba create -f environment.yml # alternatively use environment_core.yml if base system is not debian
+mamba env create -f environment.yml # alternatively use environment_core.yml if base system is not debian
 mamba activate sparkify_postgresql
 ```
 
